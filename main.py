@@ -1,4 +1,5 @@
 # --gun-game
+# run this file
 
 import random
 lst = ['s','w','g']
@@ -8,16 +9,16 @@ no_of_chance = 0
 computer_point = 0
 human_point = 0
 
-print(" \t \t \t \t Snake,Water,Gun Game\n \n")
-print("s for snake \nw for water \ng for gun \n")
+print(" \t \t \t \t ,,Gun Game\n \n")
+print("s for  \nw for  \ng for gun \n")
 
 # making the game in while
 while no_of_chance < chance:
-    _input = input('Snake,Water,Gun:')
+    _input = input(',,Gun:')
     _random = random.choice(lst)
 
     if _input == _random:
-        print("Tie Both 0 point to each \n ")
+        print(" Both 0 point to each \n ")
 
     # if user enter s
     if _input == "s" and _random == "g":
